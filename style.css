@@ -75,6 +75,10 @@
 p{
     margin: 0;
 }
+button{
+    border: 0;
+    background: none;
+}
 
 .contanier{
     width: 80%;
@@ -84,11 +88,23 @@ p{
 .bg-orange{
     background-color:var(--color-orange-600);
 }
+.bg-orange-100{
+    background-color:var(--color-orange-100);
+}
 .bg-orange-50{
     background-color:var(--color-orange-50);
 }
 .bg-white{
     background-color:white;
+}
+.bg-green{
+    background-color:var(--color-green-100);
+}
+.bg-blue{
+    background-color:var(--color-blue-100);
+}
+.bg-red-50{
+    background-color:var(--color-red-50);
 }
 
 /* ///////////// */
@@ -98,8 +114,17 @@ p{
 .color-red-500{
     color: var(--color-red-500);
 }
+.color-red-600{
+    color: var(--color-red-600);
+}
+.color-red-800{
+    color: var(--color-red-800);
+}
 .color-blue-500{
     color: var(--color-blue-500);
+}
+.color-green-500{
+    color: var(--color-green-600);
 }
 .color-gary-900{
     color: var(--color-gray-900);
@@ -116,6 +141,9 @@ p{
 .color-yellow{
     color: var(--color-yellow-400);
 }
+.color-orange-600{
+    color: var(--color-orange-600);
+}
 /* //////////////// */
 .text-xs{
     font-size: var(--text-xs);
@@ -125,6 +153,10 @@ p{
     font-size: var(--text-sm);
     line-height: var(--text-sm--line-height);
 }
+.text-lg{
+    font-size: var(--text-lg);
+    line-height: var(--text-lg--line-height);
+}
 .text-xl{
     font-size: var(--text-xl);
     line-height: var(--text-xl--line-height);
@@ -132,6 +164,10 @@ p{
 .text-2xl{
     font-size: var(--text-2xl);
     line-height: var(--text-2xl--line-height);
+}
+.text-4xl{
+    font-size: var(--text-4xl);
+    line-height: var(--text-4xl--line-height);
 }
 /* ////////// */
 .navbar-collapse {
@@ -163,4 +199,8 @@ height: 100%;
     bottom: 1.5rem;
     right: 1.5rem;
     left: 1.5rem;
+}
+/* ////////////////// */
+.time-waring{
+    border-left: .1875rem solid var(--color-red-500);
 }

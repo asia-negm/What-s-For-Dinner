@@ -72,22 +72,35 @@
     --color-scrollbar-thumb-hover: oklch(75% .15 35 / .5);
 }
 
+p{
+    margin: 0;
+}
 
 .contanier{
     width: 80%;
     margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 /* /////////////// */
 .bg-orange{
     background-color:var(--color-orange-600);
 }
+.bg-orange-50{
+    background-color:var(--color-orange-50);
+}
 .bg-white{
     background-color:white;
 }
+
 /* ///////////// */
+.color-orange-500{
+    color: var(--color-orange-500);
+}
+.color-red-500{
+    color: var(--color-red-500);
+}
+.color-blue-500{
+    color: var(--color-blue-500);
+}
 .color-gary-900{
     color: var(--color-gray-900);
 }
@@ -100,10 +113,17 @@
 .color-white{
     color: white;
 }
+.color-yellow{
+    color: var(--color-yellow-400);
+}
 /* //////////////// */
 .text-xs{
     font-size: var(--text-xs);
     line-height: var(--text-xs--line-height);
+}
+.text-sm{
+    font-size: var(--text-sm);
+    line-height: var(--text-sm--line-height);
 }
 .text-xl{
     font-size: var(--text-xl);
@@ -125,4 +145,22 @@
 .left-nav img{
     width: 5%;
     border: 2px solid var(--color-orange-300);
+}
+/* //////////////// */
+.left-side{
+    overflow: hidden;
+    height: 100%;
+}
+.row img{
+object-fit: cover;
+height: 100%;
+}
+.reviews{
+    top: 1.5rem;
+    left: 1.5rem;
+}
+.time{
+    bottom: 1.5rem;
+    right: 1.5rem;
+    left: 1.5rem;
 }

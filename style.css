@@ -234,9 +234,11 @@ li {
     overflow: hidden;
     height: 100%;
 }
-.row img{
-object-fit: cover;
+
+.recipe-image img{
 height: 100%;
+object-fit: cover;
+overflow: hidden;
 }
 .reviews{
     top: 1.5rem;
@@ -257,6 +259,11 @@ height: 100%;
 }
 .list-card .nav-underline{
     --bs-nav-underline-link-active-color: var(--color-gray-500);
+}
+ 
+.ingredients-list{
+    max-height:250px;
+    overflow-y: auto;
 }
 
 .numbers{

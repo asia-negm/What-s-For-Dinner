@@ -117,6 +117,9 @@ li {
 .bg-gray-50{
     background-color:var(--color-gray-50);
 }
+.bg-amber-50{
+    background-color:var(--color-amber-50);
+}
 .bg-blue-100{
     background-color:var(--color-blue-100);
 }
@@ -175,6 +178,9 @@ li {
 }
 .color-pink-600{
     color: var(--color-pink-600);
+}
+.color-amber-600{
+    color: var(--color-amber-600);
 }
 /* //////////////// */
 .text-xs{
@@ -266,4 +272,12 @@ height: 100%;
     margin-right: .5rem;
     width: 2.5rem;
     height: 2.5rem;
+}
+/* //////////// */
+.chef-list{
+    border-left:4px solid var(--color-amber-400) ;
+    margin-bottom: 1rem;
+}
+.chef-icon{
+    margin-right: 10px;
 }

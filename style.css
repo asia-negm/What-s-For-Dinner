@@ -79,7 +79,9 @@ button{
     border: 0;
     background: none;
 }
-
+li {
+    list-style: none;
+}
 .contanier{
     width: 80%;
     margin: auto;
@@ -93,6 +95,9 @@ button{
 }
 .bg-orange-50{
     background-color:var(--color-orange-50);
+}
+.bg-orange-500{
+    background-color:var(--color-orange-500);
 }
 .bg-white{
     background-color:white;
@@ -135,6 +140,9 @@ button{
 .color-gary-600{
     color: var(--color-gray-600);
 }
+.color-gary-700{
+    color: var(--color-gray-700);
+}
 .color-white{
     color: white;
 }
@@ -170,9 +178,9 @@ button{
     line-height: var(--text-4xl--line-height);
 }
 /* ////////// */
-.navbar{
-   
-}
+
+/* //////////// */
+
 .navbar-collapse {
     flex-grow: 1;
     flex-basis: 100%;
@@ -213,5 +221,13 @@ height: 100%;
 }
 .list-card .nav-underline{
     --bs-nav-underline-link-active-color: var(--color-gray-500);
+}
 
+.numbers{
+     width: 1.5rem;
+      height: 1.5rem;
+      margin-right:.25rem ;
+}
+.list-numbers{
+    margin: .7rem 0;
 }

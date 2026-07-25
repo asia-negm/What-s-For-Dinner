@@ -178,6 +178,12 @@ li {
     line-height: var(--text-4xl--line-height);
 }
 /* ////////// */
+.w-12{
+    width: 3rem;
+}
+.h-12{
+    height: 3rem;
+}
 
 /* //////////// */
 
